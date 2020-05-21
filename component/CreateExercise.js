@@ -72,7 +72,7 @@ export default class CreateExercises extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="container-fluid">
         <Nav />
         <div className="col-md-8 offset-md-2 border mt-5">
           <h3>Create New Exercise</h3>
