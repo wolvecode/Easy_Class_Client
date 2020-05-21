@@ -5,7 +5,7 @@ export default class Nav extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg  bg-dark navbar navbar-dark">
+        <nav className="navbar navbar-expand-lg  bg-light navbar navbar-light">
           <a className="navbar-brand" href="/">
             ExcerTracker
           </a>
