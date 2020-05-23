@@ -6,6 +6,8 @@ import CreateExercises from '../component/CreateExercise'
 import Createuser from '../component/CreateUser'
 import EditExercises from '../component/EditExercise'
 import ExercisesList from '../component/ExercisesList'
+import NotFound from '../component/NotFound'
+import SubmitPage from '../component/Submit'
 
 class HelloMessage extends React.Component {
   render() {
@@ -16,6 +18,8 @@ class HelloMessage extends React.Component {
           <Createuser path="/user" />
           <EditExercises path="/edit/:id" />
           <ExercisesList path="/" />
+          <SubmitPage path="/submit" />
+          <NotFound path="*" />
         </Router>
       </div>
     )
